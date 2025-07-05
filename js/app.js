@@ -596,11 +596,11 @@ function resetSearchArea() {
     try {
         window.history.pushState(
             {},
-            `CocoTV - 免费在线视频搜索与观看平台`,
+            `CocoTV - 在线视频搜索与观看平台`,
             `/`
         );
         // 更新页面标题
-        document.title = `CocoTV - 免费在线视频搜索与观看平台`;
+        document.title = `CocoTV - 在线视频搜索与观看平台`;
     } catch (e) {
         console.error('更新浏览器历史失败:', e);
     }
